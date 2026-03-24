@@ -1,0 +1,27 @@
+body>header {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+#header-primary {
+    padding: 20px 32px;
+}
+
+#header-primary button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: var(--text-h2);
+}
+
+#header-primary h1 {
+    color: var(--brand-color-light);
+    font: var(--text-h1);
+}
+
+#header-secondary ul {
+    padding: 14px 32px;
+    font: var(--text-span);
+    color: var(--text-color-secondary);
+    border-block: solid var(--strole-color) 1px;
+}

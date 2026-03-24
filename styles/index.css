@@ -1,6 +1,8 @@
 @import url(global.css);
+@import url(header.css);
 
 body {
     background-color: var(--bg-color);
     color: var(--text-color-primary);
+    font: var(--text);
 }

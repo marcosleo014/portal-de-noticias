@@ -5,22 +5,31 @@
 }
 
 :root {
-    /* Produto */
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
-    /* Base */
     --bg-color: #0F172A;
     --strole-color: #1E293B;
-    /* Textos */
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
 
-    /* Tipografia */
     --font-family: "Archivo", sans-serif;
-    --text-h1: 800 24px/135% var(--font-family);
+    --font-family-black: "Archivo Black", sans-serif;
+    --text-h1: 800 24px/135% var(--font-family-black);
     --text-h2: 800 16px/140% var(--font-family);
     --text-h3: 800 14px/140% var(--font-family);
     --text-span: 600 14px/145% var(--font-family);
     --text: 400 16px/140% var(--font-family);
     --text-sm: 400 14px/160% var(--font-family);
+}
+
+a, button, li {
+    /* reseta o estilo padrão do navegador (user agent stylesheet) */
+    all: unset;
+    cursor: pointer;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

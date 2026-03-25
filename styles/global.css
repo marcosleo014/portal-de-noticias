@@ -16,15 +16,23 @@
     --font-family-black: "Archivo Black", sans-serif;
     --text-h1: 800 24px/135% var(--font-family-black);
     --text-h2: 800 16px/140% var(--font-family);
-    --text-h3: 800 14px/140% var(--font-family);
+    --text-h3: 500 10px/120% var(--font-family);
     --text-span: 600 14px/145% var(--font-family);
     --text: 400 16px/140% var(--font-family);
     --text-sm: 400 14px/160% var(--font-family);
 }
 
-a, button, li {
+body> * {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+a, button, li, h1, h2, h3 {
     /* reseta o estilo padrão do navegador (user agent stylesheet) */
     all: unset;
+}
+
+a, button, li {
     cursor: pointer;
 }
 
@@ -32,4 +40,15 @@ a, button, li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h3 {
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font: var(--text-h3);
+    letter-spacing: 4%;
+    background-color: var(--brand-color-dark);
+    border-radius: 4px;
+    /* adiciona sombra */
+    box-shadow: 0px 4px 16px #02061740;
 }

@@ -1,0 +1,51 @@
+#main-news {
+    display: grid;
+    grid-template: 200px 200px/608px 288px 288px;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    border-radius: 4px;
+    /* remove o que sai do container */
+    overflow: hidden;
+}
+
+.card-lg {
+    padding: 0 24px 24px;
+    grid-row: span 2;
+    p {
+        font: 800 24px/135% var(--font-family);
+    }
+}
+.card-sm {
+    padding: 0 12px 12px;
+    letter-spacing: 0.02rem;
+    p {
+        font: 600 14px/140% var(--font-family);
+    }
+}
+
+.bg-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    /* determina um gradiente no fundo */
+    background: linear-gradient(180deg, #02061700, #020617);
+    z-index: -1;
+}
+
+.card-img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}

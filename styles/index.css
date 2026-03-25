@@ -1,6 +1,7 @@
 @import url(global.css);
 @import url(header.css);
 @import url(main-news.css);
+@import url(top-news-week.css);
 
 body {
     background-color: var(--bg-color);

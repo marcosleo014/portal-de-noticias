@@ -1,0 +1,29 @@
+#top-news-week {
+    div {
+        margin-block: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article {
+        position: relative;
+        width: 292px;
+
+        h3 {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        p {
+            font: var(--text-h2);
+        }
+    }
+
+
+}

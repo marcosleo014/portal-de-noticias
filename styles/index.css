@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(main-news.css);
 @import url(top-news-week.css);
+@import url(ai-highlights.css);
 
 body {
     background-color: var(--bg-color);
@@ -12,4 +13,10 @@ body {
 main {
     padding: 40px 32px 80px;
     margin-inline: auto;
+}
+
+main>div {
+    display: grid;
+    grid-template-columns: 696px 488px;
+    gap: 32px;
 }

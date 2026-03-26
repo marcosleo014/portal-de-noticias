@@ -3,6 +3,7 @@
 @import url(main-news.css);
 @import url(top-news-week.css);
 @import url(ai-highlights.css);
+@import url(aside.css);
 
 body {
     background-color: var(--bg-color);

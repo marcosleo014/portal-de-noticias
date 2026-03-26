@@ -1,0 +1,40 @@
+aside {
+
+    &>img {
+        width: 100%;
+        margin-block: 80px 32px;
+        border-radius: 4px;
+    }
+}
+
+#related-news {
+    &>header {
+        margin-bottom: 24px;
+    }
+
+    &>div>article {
+        display: flex;
+        gap: 15px;
+
+        &>img {
+            width: 72px;
+            height: 72px;
+            object-fit: cover;
+        }
+
+        &>div {
+
+            /* display: flex;
+            flex-direction: column; */
+            &>h3 {
+                display: inline-block;
+                margin-block: 2px 8px;
+            }
+        }
+    }
+}
+
+.p-aside {
+    font: 800 20/140% var(--font-family-black);
+    letter-spacing: 0.01em;
+}

@@ -20,57 +20,43 @@
 <body>
 
     <header>
-        <div id="header-primary" class="flex-space-between">
-            <button>
+        <div class="header-top flex-row space-between container">
+            <button class="menu button">
                 <img src="assets/icons/List.svg" alt="ícone de lista">
                 <span>Menu</span>
             </button>
-            <h1>
+            <h1 class="logo">
                 <a href="#">
                     TECH NEWS
                 </a>
             </h1>
-            <button>
+            <button class="search button">
                 <span>Buscar</span>
                 <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa">
             </button>
         </div>
-        <nav id="header-secondary">
-            <ul class="flex-space-between">
+        <nav class="categories container">
+            <ul class="flex-row space-between">
                 <li>
-                    <a href="#">
-                        Inteligência Artificial
-                    </a>
+                    <a href="#">Inteligência Artificial</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Blockchain
-                    </a>
+                    <a href="#">Blockchain</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Hologramas
-                    </a>
+                    <a href="#">Hologramas</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Internet
-                    </a>
+                    <a href="#">Internet</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Vestíveis
-                    </a>
+                    <a href="#">Vestíveis</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Realidade Aumentada
-                    </a>
+                    <a href="#">Realidade Aumentada</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Realidade Virtual
-                    </a>
+                    <a href="#">Realidade Virtual</a>
                 </li>
             </ul>
         </nav>
@@ -78,7 +64,7 @@
 
     <main>
 
-        <section id="main-news">
+        <section id="main-news" class="container">
             <article class="card card-lg">
                 <div class="bg-gradient"></div>
                 <img src="assets/images/Image 01.png" alt="" class="card-img">
@@ -176,46 +162,98 @@
                         <img src="assets/icons/ArrowRight.svg" alt="seta para direita">
                     </button>
                 </header>
-            <div>
-                <article>
-                    <div>
-                        <h3>inteligência artificial</h3>
-                        <p>Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</p>
-                        <span>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até pla...</span>
-                    </div>
-                    <img src="assets/images/Image 10.png" alt="">
-                </article>
-                <article>
-                    <div>
-                        <h3>inteligência artificial</h3>
-                        <p>Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</p>
-                        <span>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...</span>
-                    </div>
-                    <img src="assets/images/Image 11.png" alt="">
-                </article>
-                <article>
-                    <div>
-                        <h3>inteligência artificial</h3>
-                        <p>Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usuários.</p>
-                        <span>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f...</span>
-                    </div>
-                    <img src="assets/images/Image 12.png" alt="">
-                </article>
-                <article>
-                    <div>
-                        <h3>inteligência artificial</h3>
-                        <p>Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</p>
-                        <span>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci... </span>
-                    </div>
-                    <img src="assets/images/Image 13.png" alt="">
-                </article>
-                
-            </div>    
+                <div class="flex-column-gap32">
+                    <article>
+                        <div>
+                            <h3>inteligência artificial</h3>
+                            <p>Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</p>
+                            <span>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até pla...</span>
+                        </div>
+                        <img src="assets/images/Image 10.png" alt="">
+                    </article>
+                    <article>
+                        <div>
+                            <h3>inteligência artificial</h3>
+                            <p>Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</p>
+                            <span>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...</span>
+                        </div>
+                        <img src="assets/images/Image 11.png" alt="">
+                    </article>
+                    <article>
+                        <div>
+                            <h3>inteligência artificial</h3>
+                            <p>Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usu...</p>
+                            <span>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f...</span>
+                        </div>
+                        <img src="assets/images/Image 12.png" alt="">
+                    </article>
+                    <article>
+                        <div>
+                            <h3>inteligência artificial</h3>
+                            <p>Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</p>
+                            <span>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci... </span>
+                        </div>
+                        <img src="assets/images/Image 13.png" alt="">
+                    </article>
+                    
+                </div>    
             </section>
             
             <aside>
                 
-                
+                <img src="assets/images/Ads.png" alt="publicidade">
+
+                <section id="related-news">
+
+                    <header class="flex-space-between header-section">
+                        <h2>Viu isso aqui?</h2>
+                        <button>
+                            <span>Ver tudo</span>
+                            <img src="assets/icons/ArrowRight.svg" alt="seta para direita">
+                        </button>
+                    </header>
+
+                    <div class="flex-column-gap32">
+                        
+                        <article>
+                            <img src="assets/images/Image 14.png" alt="">
+                            <div>
+                                <h3>Software</h3>
+                                <p class="p-aside">Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e pro...</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/images/Image 15.png" alt="">
+                            <div>
+                                <h3>realidade virtual</h3>
+                                <p>Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial complet...</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/images/Image 16.png" alt="">
+                            <div>
+                                <h3>criptomoedas</h3>
+                                <p>Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o i...</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/images/Image 17.png" alt="">
+                            <div>
+                                <h3>drones</h3>
+                                <p>Empresas de e-commerce implementam frota de drones para entregas rápidas, transformando o ce...</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/images/Image 18.png" alt="">
+                            <div>
+                                <h3>impresão 3d</h3>
+                                <p>Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a li...</p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </section>
 
             </aside>
 

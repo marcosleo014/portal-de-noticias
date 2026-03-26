@@ -1,22 +1,25 @@
-#header-primary {
-    padding: 20px 32px;
+.header-top {
+    padding-block: 20px;
 }
 
-#header-primary button {
+.button {
     display: flex;
     align-items: center;
     gap: 8px;
     font: var(--text-h2);
 }
 
-#header-primary h1 {
+.logo {
     color: var(--brand-color-light);
     font: var(--text-h1);
 }
 
-#header-secondary ul {
-    padding: 14px 32px;
+.categories {
+    border-block: solid var(--strole-color) 1px;
+}
+
+.categories ul {
+    padding-block: 14px;
     font: var(--text-span);
     color: var(--text-color-secondary);
-    border-block: solid var(--strole-color) 1px;
 }

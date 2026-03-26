@@ -22,9 +22,19 @@
     --text-sm: 400 14px/160% var(--font-family);
 }
 
-body> * {
-    max-width: 1280px;
+.container {
+    padding-inline: 32px;
     margin-inline: auto;
+    max-width: 1280px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 a, button, li, h1, h2, h3 {
@@ -36,10 +46,10 @@ a, button, li {
     cursor: pointer;
 }
 
-.flex-space-between {
+.flex-column-gap32 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 32px;
 }
 
 h3 {

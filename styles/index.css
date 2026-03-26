@@ -12,8 +12,13 @@ body {
     font: var(--text);
 }
 
+main {
+    margin-bottom: 80px;
+}
+
 main>div {
-    display: grid;
-    grid-template-columns: 696px 488px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }

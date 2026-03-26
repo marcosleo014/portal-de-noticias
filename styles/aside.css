@@ -1,5 +1,6 @@
 aside {
 
+    width: 488px;
     &>img {
         width: 100%;
         margin-block: 80px 32px;

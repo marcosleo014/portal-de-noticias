@@ -1,8 +1,6 @@
 #main-news {
     gap: 16px;
     margin-block: 40px 80px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .container-cards-sm {

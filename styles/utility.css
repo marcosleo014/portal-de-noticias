@@ -46,3 +46,8 @@ a, button, li {
         gap: 4px;
     }
 }
+
+.wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+}

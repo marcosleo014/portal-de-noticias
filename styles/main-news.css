@@ -1,8 +1,14 @@
 #main-news {
-    display: grid;
-    grid-template: 200px 200px/608px 288px 288px;
     gap: 16px;
-    margin-bottom: 80px;
+    margin-block: 40px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cards-sm {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 16px;
 }
 
 .card {
@@ -19,19 +25,25 @@
 }
 
 .card-lg {
+    width: 608px;
+    height: 416px;
     padding: 0 24px 24px;
-    grid-row: span 2;
     p {
         font: 800 24px/135% var(--font-family);
     }
 }
+
 .card-sm {
+    width: 288px;
+    height: 200px;
     padding: 0 12px 12px;
     letter-spacing: 0.02rem;
     p {
         font: 600 14px/140% var(--font-family);
     }
 }
+
+
 
 .bg-gradient {
     position: absolute;

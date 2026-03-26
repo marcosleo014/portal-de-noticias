@@ -15,10 +15,3 @@ body {
 main {
     margin-bottom: 80px;
 }
-
-main>div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 32px;
-}
